@@ -1,0 +1,22 @@
+{
+	"name": "ftgc_bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "fred.js",
+	"dependencies": {
+		"discord.js": "*"
+	},
+	"scripts": {
+		"start": "node ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Delphinoid/FredTheGiantCactusBot.git"
+	},
+	"author": "Delphinoid",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Delphinoid/FredTheGiantCactusBot/issues"
+	},
+	"homepage": "https://github.com/Delphinoid/FredTheGiantCactusBot#readme"
+}
