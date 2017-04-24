@@ -11,11 +11,11 @@ client.once("ready", () => {
 
 // New member joined
 client.on("guildMemberAdd", (member) => {
-member.guild.channels.get(member.guild.id).sendMessage("Hi " + member.toString() + ", I'm Fred the Giant Cactus. " +
-	                                                   "Welcome to the Platform Racing Discord server!\n\n" +
-	                                                   "Let me notify the staff so they can verify you. @Owner @Admins @Moderators\n" +
-	                                                   "In the mean time, please consider looking at the #rules.\n\n" +
-	                                                   "I'll be seeing you around.  :fred:");
+	member.guild.channels.get(member.guild.id).sendMessage("Hi " + member.toString() + ", I'm Fred the Giant Cactus. " +
+	                                                       "Welcome to the Platform Racing Discord server!\n\n" +
+	                                                       "Let me notify the staff so they can verify you. @Owner @Admins @Moderators\n" +
+	                                                       "In the mean time, please consider looking at the #rules.\n\n" +
+	                                                       "I'll be seeing you around.  :fred:");
 });
 
 // Help command posted
